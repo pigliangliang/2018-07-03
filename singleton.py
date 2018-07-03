@@ -34,3 +34,9 @@ print(a is b)
 print(a == b)
 print(id(a),id(b))
 
+"""
+输出：
+True
+True
+4297641120 4297641120
+"""
