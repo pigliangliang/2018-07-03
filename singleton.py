@@ -39,4 +39,19 @@ print(id(a),id(b))
 True
 True
 4297641120 4297641120
+
+
 """
+#去重
+l1 = ['b','c','b','a','a','c']
+print({}.fromkeys(l1).keys())
+l2 = []
+[l2.append(i) for i in l1 if i not in l2 ]
+print(l2)
+
+'''
+dict_keys(['b', 'c', 'a'])
+['b', 'c', 'a']
+
+'''
+
